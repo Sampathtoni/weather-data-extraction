@@ -32,16 +32,16 @@ Open a terminal or file explorer and create a new directory:
 
 ### Step 2: Create the Files 
 Inside the directory, create the following files:
-1. fetch_weather.py
+1. **fetch_weather.py**:
 This script fetches the weather data from the OpenWeatherMap API.
 Save the code provided in the Step 1: Fetch Weather Data section into this file.
-2. parse_weather.py
+2. **parse_weather.py**:
 This script parses the JSON file and converts it to CSV format.
 Save the code provided in the Step 2: Parse JSON Data section into this file.
-3. settings.json
+3.  **config.json**:
 This is the metadata-driven configuration file.
 Save the JSON example from Step 3: Configuration File into this file.
-4. README.md
+4. **README.md**:
 This file provides documentation for your project.
 Copy the content from Step 4: Instructions in README into this file.
 
