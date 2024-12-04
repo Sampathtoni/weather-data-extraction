@@ -1,0 +1,4 @@
+City,Country,Temperature (°C),Humidity (%),Pressure (hPa),Weather Description
+London,GB,7.05,87,1026,overcast clouds
+New York,US,-0.65,74,1026,clear sky
+Mumbai,IN,31.99,51,1008,smoke

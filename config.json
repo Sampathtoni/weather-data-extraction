@@ -1,0 +1,6 @@
+{
+  "cities": ["London,UK", "New York,US", "Mumbai,IN"],
+  "units": "metric",
+  "json_output": "weather_data.json",
+  "csv_output": "weather_data.csv"
+}
