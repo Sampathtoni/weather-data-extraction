@@ -29,12 +29,3 @@ Open a terminal or file explorer and create a new directory:
 ```bash  
 mkdir weather_data_extractor  
 cd weather_data_extractor  
-
----
-## Step 2: Create Required Files
-Inside the project directory, create the following files and populate them with the corresponding code/content:
-
-fetch_weather.py: This script fetches weather data from the OpenWeatherMap API.
-parse_weather.py: This script parses the fetched JSON data and converts it into a CSV file.
-config.json: This metadata-driven configuration file contains API settings, locations, and output configurations.
-README.md: This documentation file (the file you are currently reading).
