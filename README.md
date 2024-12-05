@@ -74,6 +74,51 @@ parse_weather.py
   
 ---
 
+## Sample Output
+# JSON File (weather_output.json)
+
+Below is an example of the raw weather data saved in the JSON file:
+```bash
+json
+[
+  {
+    "City": "London",
+    "Country": "GB",
+    "Temperature (°C)": 7.05,
+    "Humidity (%)": 87,
+    "Pressure (hPa)": 1026,
+    "Weather Description": "overcast clouds"
+  },
+  {
+    "City": "New York",
+    "Country": "US",
+    "Temperature (°C)": -0.65,
+    "Humidity (%)": 74,
+    "Pressure (hPa)": 1026,
+    "Weather Description": "clear sky"
+  },
+  {
+    "City": "Mumbai",
+    "Country": "IN",
+    "Temperature (°C)": 31.99,
+    "Humidity (%)": 51,
+    "Pressure (hPa)": 1008,
+    "Weather Description": "smoke"
+  }
+]
+```
+---
+## CSV File (weather_data.csv)
+The processed CSV file will look like this:
+
+| City     | Country   |   Temperature (°C) |   Humidity (%) |   Pressure (hPa) | Weather Description   |
+|:---------|:----------|-------------------:|---------------:|-----------------:|:----------------------|
+| London   | GB        |               7.05 |             87 |             1026 | overcast clouds       |
+| New York | US        |              -0.65 |             74 |             1026 | clear sky             |
+| Mumbai   | IN        |              31.99 |             51 |             1008 | smoke                 |
+
+
+---
 ### Additional Notes
 
 - Ensure the working directory is set correctly to the folder containing the project files when running the scripts.
