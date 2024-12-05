@@ -75,6 +75,31 @@ parse_weather.py
 ---
 
 ### Additional Notes
-1.'Please make sure the working directory is correctly set to the folder containing the project files when running the scripts'.
-2.'You can add or remove cities in the settings.json file without modifying the code'.
-3.If there are any issues, please look at the error messages in the console for debugging.
+
+- Ensure the working directory is set correctly to the folder containing the project files when running the scripts.
+- The `config.json` file is designed to allow easy configuration of:
+  - Cities for weather data retrieval.
+  - Units of measurement (`metric`, `imperial`, or `standard`).
+  - Output filenames for JSON and CSV files.
+- If you encounter issues with the API, verify:
+  1. Your API key is correct and active.
+  2. You haven't exceeded the API request limit.
+  3. The city names in `config.json` match the format supported by OpenWeatherMap.
+
+---
+
+## Extending the Project
+
+This project is modular and can be extended to include:
+- **Historical Weather Data**: Modify the API endpoint to fetch historical data.
+- **Weather Forecasts**: Add support for 7-day or hourly forecasts.
+- **Visualization**: Use Python libraries like Matplotlib or Seaborn to visualize the weather data.
+
+## Contact Information
+
+For any questions or feedback regarding this project, please feel free to reach out:
+
+- **GitHub Profile**: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- **Email**: sampathdataengineer25@gmail.com.com
+
+
